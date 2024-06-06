@@ -1,0 +1,100 @@
+<!--cd is used to nav between directories
+    mkdir creates folder
+    touch styles.css this initialises a file in the folder we are in    -->
+
+<!--coding google homepage-->
+
+
+<!DOCTYPE html>      <!--Boilerplate-->
+<html lang="en">    <!--sets default language-->
+<head>      <!--meta information-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connor is cool</title>   <!--changes webpage title-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body> <!--items we see -->
+    <header>    <!--sets the header for the page-->
+        <nav>   <!--creates nav bar-->
+            <a href="#add_a_link_later" class="GreyLink">
+                <p>About</p>
+            </a>
+            <a href="#add_a_link_later" class="GreyLink">
+                <p>Store</p>
+            </a>
+        </nav>
+        <section>
+            <a href="#add_a_link_later" class="WhiteLink"> <!--anchor tags for link-->
+                <p>gmail</p>
+            </a>
+            <a href="#add_a_link_later" class="WhiteLink">
+                <p>images</p>
+            </a>
+            <a href="#add_a_link_later" class="WhiteLink">
+                <i class="fa-solid fa-braille"></i>
+            </a>
+            <a href="#add_a_link_later" class="WhiteLink">
+                <img src="public/download.jpeg" alt="corgi profile pic">
+            </a>
+
+        </section>
+    </header> <!--end of header(top of page)-->
+
+    <main> <!--begin of main elements-->
+        <div>
+            <h1 class="headertext" id="headerlogo">Google!</h1> <!--Google logo-->
+        </div>
+        <div class="searchbar">
+            <div>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <input type="text" />
+            <div class="iconbuttoncontainer">
+                <button class="iconbutton">    <!--interactive button for search-->
+                        <i class="fa-solid fa-microphone"></i>
+                </button>
+                <button class="iconbutton">    <!--interactive button for image search-->
+                        <i class="fa-solid fa-camera"></i>
+                </button>
+            </div>
+        </div>
+        <div class="searchbuttoncontainer">
+            <button>
+                <p>Google search</p>
+            </button>
+            <button>
+                <p>I am feeling lucky</p>
+            </button>
+        </div>
+        <div class="languageselection">
+            <p>Google offered in: <span>Cape Town</span></p>
+        </div>
+
+    </main> <!--end of main body info-->
+
+    <footer> <!--start of bootom of page, holds contact info-->
+        <section>
+            <p>South Africa</p>
+        </section>
+        <section>
+            <div class="footerlink">
+                <a href="#">Advertising</a>
+                <a href="#">Business</a>
+                <a href="#">How search works</a>
+            </div>
+            <div class="footerlink">    
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Settings</a>   
+            </div>
+        </section>
+
+    </footer>
+    
+</body>
+
+</html>
